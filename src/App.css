@@ -1,5 +1,13 @@
 .App {
   text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
 
 .App-logo {
@@ -13,7 +21,7 @@
   }
 }
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -22,7 +30,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */
 
 .App-link {
   color: #61dafb;
@@ -35,4 +43,42 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.card-title{
+  min-width: 500px;
+}
+
+.card-title{
+  background-color: white;
+}
+
+.authorName{
+  /* change color of href link */
+  color: #282c34;
+  /* hide underline on href link */
+  text-decoration: none;
+}
+
+.authorName:hover{
+  /* change color of href link when hovering */
+  color: #198754;
+}
+
+.authorNameFixed{
+  color: #282c34;
+}
+
+.btn-lg{
+  min-width: 530px;
+}
+
+.btn-md{
+  min-width: 225px;
+}
+
+.btn-outline-dark:hover{
+  /* change color of btn when hovering */
+  color: #198754;
+  background-color: #052516;
 }
